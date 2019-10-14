@@ -1,0 +1,20 @@
+# This file determines the owners for the contents of this repository.
+# Users listed in this file will be automatically added to any pull
+# request you create, and at least one of those listed *must* approve
+# your pull request before it is merged.
+# It users glob matching to match paths and extensions. Ordering is important
+# as the last matching pattern for a file will take precendence. Generally
+# speaking it is best to list patterns in order from least specific to most
+
+
+# The following will mark @deanacus as the codeowner for any file in the repo:
+# * @deanacus
+
+# It is also possible to list owners for certain file extensions, or certain
+# paths within the repository. The following will mark @nk2580 as the codeowner
+# for any file with a .js extension:
+# *.js @nk2580
+
+# The following will mark @robert-coleman as the codeowner for any file in the
+# /docs path:
+# docs/* @robert-coleman
