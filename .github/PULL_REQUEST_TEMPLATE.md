@@ -14,4 +14,4 @@ A short summary of what the pull request does, and why it is being implemented
 
 ## Closes issues
 
-List the issues/JIRA tickets that this pull request will close
+List the issues/tickets that this pull request will close/address

@@ -41,22 +41,14 @@ include things like:
 
 ## Branching Strategy
 
-Compare the Market uses a single branch branching strategy where all branches
-are made from `master` and and merge back into `master`. Branches should be
-named according to the type of work they are - `feature`, `hotfix`, `bugfix`, 
-accompanied by the ticket number and a short description. Examples of acceptable
-branch names:
-
-* `feature/abc-123-rule-the-world`
-* `hotfix/abc-124-fix-the-world`
+Please don't work directly on master. Use a topic branch appropriate for the
+type of work you are doing. Our branching strategy and guidelines are documented
+in [CONTRIBUTING.md][contributing].
 
 ## Deployment
 
-Describe the deployment process in short here, with a link to further
-documentation if required.
-
-* Add links to bamboo build jobs for various environments
-* Add links to any application launcher pages if they exist
+Describe the deployment process in short here, with a link to [DEPLOYMENTS][dep]
+if necessary.
 
 ## Versioning
 
@@ -68,7 +60,8 @@ We use [SemVer][semver] for versioning. For the versions available, see the
 See the [CODEOWNERS](codeowners) file for a list of subject matter experts with 
 whom to speak.
 
-[contributing]: https://www.github.com/comparethemarketau/atlas-react/blob/banking/CONTRIBUTING.md
+[contributing]: https://www.github.com/${owner}/${repo-name}/blob/master/CONTRIBUTING.md
 [semver]: http://semver.org/
-[tags]: https://github.com/comparethemarketau/${repo-name}/tags
-[codeowners]: https://www.github.com/comparethemarketau/${repo-name}/blob/master/.github/CODEOWNERS
+[tags]: https://github.com/${owner}/${repo-name}/tags
+[codeowners]: https://www.github.com/${owner}/${repo-name}/blob/master/.github/CODEOWNERS
+[dep]: https://www.github.com/${owner}/${repo-name}/blob/master/DEPLOYMENTS.md
