@@ -32,6 +32,8 @@ branch names:
 * `feature/abc-123-rule-the-world`
 * `hotfix/abc-124-fix-the-world`
 
+More detailed documentation of this can be found inc [Confluence][confluence]
+
 ## Pull Requests
 
 We have a pull request template that will guide you through the process of 
@@ -75,3 +77,4 @@ good commit message. It can be used by running `yarn commit` or `npm run commit`
 
 [conv-commits]: https://www.conventionalcommits.org/en/v1.0.0-beta.3/
 [commitizen]: https://github.com/commitizen/cz-cli
+[confluence]: https://google.com/
