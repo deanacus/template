@@ -1,8 +1,26 @@
 # Deployments
 
-Describe the deployment process in depth here if required, rather than the
-README, as the purpose of the README is to provide developers a short overview
-rather than form comprehensive documentation.
+## Local Deployments
 
-For projects that have a number of different deployment options or steps, it may
-be worthwhile documenting these on Confluence and providing a link here.
+If there is a local deployment option (docker-compose, etc), document it here,
+otherwise delete this section.
+
+## Feature Branch
+
+Description of how to deploy a feature branch. Most likely using the feature
+stack builder.
+
+### Pre-requisites
+
+* A branch that follows the [branching model][branch].
+* A docker image built and deployed to [quay.io][quay].
+
+## Production
+
+This is the realm of the Deployment Manager. [Documentation][deploy] to support the
+Deployment Manager is available.
+
+
+[quay]: https://quay.io/
+[branch]: https://google.com/
+[deploy]: https://google.com/
