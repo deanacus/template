@@ -33,17 +33,17 @@ process for submitting pull requests.
 
 ## Further Documentation
 
-A list of places to find further documentation related to the project. This may
-include things like:
+Detailed documentation can be found on [Confluence][confluence]:
 
-* Architecture (enteprise or project related)
-* Technical documentation
+* Enterprise Architecture
+* Project Architecture
+* Project Guidelines
 
 ## Branching Strategy
 
 Please don't work directly on master. Use a topic branch appropriate for the
-type of work you are doing. Our branching strategy and guidelines are documented
-in [CONTRIBUTING.md][contributing].
+type of work you are doing. Refer the the [branching strategy][branch] for this.
+More detailed guidelines are documented in [CONTRIBUTING.md][contributing].
 
 ## Deployment
 
@@ -65,3 +65,5 @@ whom to speak.
 [tags]: https://github.com/${owner}/${repo-name}/tags
 [codeowners]: https://www.github.com/${owner}/${repo-name}/blob/master/.github/CODEOWNERS
 [dep]: https://www.github.com/${owner}/${repo-name}/blob/master/DEPLOYMENTS.md
+[confluence]: https://google.com/
+[branch]: https://google.com/
